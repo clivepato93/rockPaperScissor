@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.scores{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap:16px;
+}
